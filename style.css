@@ -1,0 +1,171 @@
+/* font addition*/
+@font-face{
+    font-family: 'body';
+    src: url(../Fonts/ProductSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'head';
+    src: url(../Fonts/ProductSans-Bold.ttf);
+}
+
+/* navigation bar styling */
+.navbar-brand{
+    margin-left: 2px;
+}
+.active > .nav-link{
+    font-weight: bold; 
+    background-color: lightgray;
+}
+.navbar-nav{
+    padding: 3px;  
+    color: black; 
+    font-size: 20px;
+    text-align: center;
+}
+
+/* footer styling */
+.footer{
+    background-color: blueviolet !important;
+    height: auto;
+
+}
+.text{
+    font-weight: bold !important;
+    font-size: 30px !important;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.social{
+    padding-top: 5px;
+}
+.social > a{
+    text-decoration: none;
+}
+
+/* font awesome icons styling */
+.fab, .fas{
+    font-size: 35px !important;
+    padding: 0 10px !important;
+}
+
+
+
+/* styling for login page.html */
+.login .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+}
+
+.login .box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.login .box input[type = "text"],.login .box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.login .box input[type = "text"]:focus,.login .box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.login .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.login .box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.login .text-center{
+    margin-bottom: 300px;
+}
+
+
+
+/* styling for signup page.html */
+.signup .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+}
+
+.signup .box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.signup .box input[type = "text"],.signup .box input[type = "password"],.signup .box input[type = "number"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.signup .box input[type = "text"]:focus,.signup .box input[type = "password"]:focus,.signup .box input[type = "number"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.signup .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.signup .box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.signup .text-center{
+    margin-bottom: 550px;
+}
