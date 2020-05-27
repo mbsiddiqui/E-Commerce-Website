@@ -105,8 +105,11 @@
 .login .box input[type = "submit"]:hover{
     background: #2ecc71;
 }
-.login .text-center{
-    margin-bottom: 300px;
+.login .title{
+    margin-bottom: 260px;
+}
+.login .text-link{
+    text-align: center;
 }
 
 
@@ -116,7 +119,7 @@
     width: 300px;
     padding: 40px;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: transparent;
@@ -129,7 +132,7 @@
     font-weight: 500;
 }
 
-.signup .box input[type = "text"],.signup .box input[type = "password"],.signup .box input[type = "number"]{
+.signup .box input[type = "text"],.signup .box input[type = "password"],.signup .box input[type = "number"],.signup .box input[type = "checkbox"]{
     border:0;
     background: none;
     display: block;
@@ -166,6 +169,6 @@
 .signup .box input[type = "submit"]:hover{
     background: #2ecc71;
 }
-.signup .text-center{
-    margin-bottom: 550px;
+.signup .title{
+    margin-bottom: 730px;
 }
