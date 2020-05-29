@@ -8,6 +8,19 @@
     src: url(../Fonts/ProductSans-Bold.ttf);
 }
 
+/* go to top icon styling */
+.goto-top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.3;
+}
+.goto-top:hover{
+    opacity: 0.9;
+}
+
 /* navigation bar styling */
 .navbar-brand{
     margin-left: 2px;
@@ -48,6 +61,65 @@
     padding: 0 10px !important;
 }
 
+
+/* styling for contact.html */
+.contact .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 65% !important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+}
+
+.contact .box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.contact .box input[type = "text"],.contact .box input[type = "email"],.contact .box textarea{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.contact .box input[type = "text"]:focus,.contact .box input[type = "email"]:focus,.contact .box textarea:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.contact .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.contact .box input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.contact .title{
+    margin-bottom: 350px;
+}
 
 
 /* styling for login page.html */
