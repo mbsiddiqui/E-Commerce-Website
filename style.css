@@ -8,6 +8,7 @@
     src: url(../Fonts/ProductSans-Bold.ttf);
 }
 
+
 /* go to top icon styling */
 .goto-top{
     width: 50px;
@@ -20,6 +21,7 @@
 .goto-top:hover{
     opacity: 0.9;
 }
+
 
 /* navigation bar styling */
 .navbar-brand{
@@ -35,6 +37,31 @@
     font-size: 20px;
     text-align: center;
 }
+
+
+/* product categories styling (index.html)*/
+.pcategory{
+    opacity: 0.3;
+}
+
+.categories > div{
+    margin-left: 10px;
+}
+
+
+/* USPs styling (index.html) */
+.USPs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.USPs > div{
+    margin-top: 25px;
+    margin: auto;
+    padding: 5px;
+}
+
 
 /* footer styling */
 .footer{
@@ -55,8 +82,9 @@
     text-decoration: none;
 }
 
+
 /* font awesome icons styling */
-.fab, .fas{
+.fab, .fas, .far{
     font-size: 35px !important;
     padding: 0 10px !important;
 }
