@@ -151,11 +151,12 @@
 
 
 /* styling for login page.html */
+
 .login .box{
     width: 300px;
     padding: 40px;
     position: absolute;
-    top: 55%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: transparent;
